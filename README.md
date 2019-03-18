@@ -1,5 +1,18 @@
 # PortalPanel
 
-## What's this?
+这是为微距用户报名与缴费所写的面板
 
-An open-source panel based on laravel. It allows users to register their personal information, and make payment.
+---
+
+## 需求
+
+* 用户自主输入信息完成注册
+* 用户自主选择支付方式完成缴费
+
+---
+
+## 问题
+
+### 安全性问题
+
+因计划为简化注册流程，故并未设置密码字段。但为了解决跨设备登陆问题，故选择以手机号作为密码。但又因手机号为数据收集所需，若进行加密则会使日后导出数据库变为复杂，遂其为明文储存。
