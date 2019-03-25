@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
+use Faker\Provider\lv_LV\PhoneNumber;
 
 class CreateUsersTable extends Migration
 {
@@ -20,11 +21,19 @@ class CreateUsersTable extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('school');
-            $table->integer('age')->nullable();
-            $table->string('gender')->nullable();
-            $table->integer('id_number')->nullable();
-            $table->string('birthday')->nullable();
-            $table->string('address')->nullable();
+            $table->integer('age');
+            $table->string('gender');
+            $table->integer('id_number');
+            $table->string('birthday');
+            $table->string('address');
+            $table->string('ethnic');
+            $table->string('subject');
+            $table->integer('phone');
+            $table->integer('QQ');
+            $table->integer('Wechat');
+            $table->string('contact_other');
+            $table->string('room_set');
+            $table->string('rommate');
             $table->rememberToken();
             $table->timestamps();
         });

@@ -69,6 +69,34 @@
                             </div>
                         </div>
 
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('年龄') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="age" type="text" class="form-control" name="age" value="{{ old('age') }}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('性别') }}</label>
+
+                            <div class="col-md-6">
+                            <select class="form-control" name="gender" id="gender" required>
+                                <option value="男">男</option>
+                                <option value="女">女</option>
+                            </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('身份证号') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="id_number" type="text" class="form-control" name="id_number" value="{{ old('id_number') }}" required>
+                            </div>
+                        </div>
+
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
