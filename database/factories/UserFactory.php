@@ -25,6 +25,17 @@ $factory->define(User::class, function (Faker $faker) {
         'age' => $faker->age,
         'gender' => $faker->gender,
         'id_number' => $faker->id_number,
+        'birthday' => $faker->birthday,
+        'address' => $faker->address,
+        'ethnic' => $faker->ethnic,
+        'subject' => $faker->subject,
+        'wechat' => $faker->wechat,
+        'contact_other' => $faker->contact_other,
+        'room_set' => $faker->room_set,
+        'roomate' => $faker->roomate,
+        'is_paid' => false,
+        'payment_gateway' => '',
+        'invoice_id' => '',
         'remember_token' => Str::random(10),
     ];
 });

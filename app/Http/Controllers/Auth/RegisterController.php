@@ -55,8 +55,18 @@ class RegisterController extends Controller
             'school' => ['required', 'string'],
             'age' => ['required', 'integer'],
             'gender' => ['required'],
-            'id_number' => ['required', 'max:18', 'min:18']
-            
+            'id_number' => ['required', 'max:18', 'min:18'],
+            'birthday' => ['required', 'date'],
+            'address' => ['required', 'string'],
+            'ethnic' => ['required', 'string'],
+            'subject' => ['required', 'string'],
+            'wechat' => ['required', 'string'],
+            'contact_other' => ['string'],
+            'room_set' => ['required','string'],
+            'roomate' => ['string'],
+            'is_paid' => ['boolean'],
+            'payment_gateway' => ['string'],
+            'invoice_id' => ['string'],            
         ]);
     }
 
@@ -73,6 +83,20 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => $data['password'],
             'school' => $data['school'],
+            'age' => $data['age'],
+            'gender' => $data['gender'],
+            'id_number' => $data['id_number'],
+            'birthday' => $data['birthday'],
+            'address' => $data['birthday'],
+            'ethnic' => $data['ethnic'],
+            'subject' => $data['subject'],
+            'wechat' => $data['wechat'],
+            'contact_other' => $data['contact_other'],
+            'room_set' => $data['room_set'],
+            'rommate' => $data['rommate'],
+            'is_paid' => false,
+            'payment_gateway' => '',
+            'invoice_id' => '',
         ]);
     }
  

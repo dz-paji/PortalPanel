@@ -96,6 +96,68 @@
                             </div>
                         </div>
 
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('生日') }}</label>
+
+                            <div class="col-md-6">
+                                <input type="date" class="form-control" name="birthday" value="birthday" id="birthday" autocomplete="off" />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('地址') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="address" type="text" class="form-control" name="address" value="{{ old('address') }}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('民族') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="ethnic" type="text" class="form-control" name="ethnic" value="{{ old('ethnic') }}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('倾向的 subject') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="subject" type="text" class="form-control" name="subject" value="{{ old('subject') }}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('微信号') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="wechat" type="text" class="form-control" name="wechat" value="{{ old('wechat') }}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('其他联系方式') }}</label>
+                            <div class="col-md-6">
+                                <input id="contact_other" type="text" class="form-control" name="contact_other" value="{{ old('contact_other') }}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('房间类型') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="room_set" type="text" class="form-control" name="room_set" value="{{ old('room_set') }}" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('首选室友(如果有)') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="rommate" type="text" class="form-control" name="rommate" value="{{ old('roomate') }}" required>
+                            </div>
+                        </div>
 
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
