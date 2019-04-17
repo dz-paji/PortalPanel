@@ -33,7 +33,7 @@ $factory->define(User::class, function (Faker $faker) {
         'contact_other' => $faker->contact_other,
         'room_set' => $faker->room_set,
         'roomate' => $faker->roomate,
-        'is_paid' => false,
+        'is_paid' => '0',
         'payment_gateway' => '',
         'invoice_id' => '',
         'remember_token' => Str::random(10),

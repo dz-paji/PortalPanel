@@ -74,6 +74,13 @@
 
                             <div class="col-md-6">
                                 <input id="age" type="text" class="form-control" name="age" value="{{ old('age') }}" required>
+                                
+                                @if ($errors->has('password'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('password') }}</strong>
+                                    </span>
+                                @endif
+
                             </div>
                         </div>
 

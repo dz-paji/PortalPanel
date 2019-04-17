@@ -94,7 +94,7 @@ class RegisterController extends Controller
             'contact_other' => $data['contact_other'],
             'room_set' => $data['room_set'],
             'rommate' => $data['rommate'],
-            'is_paid' => false,
+            'is_paid' => $data['false'],
             'payment_gateway' => '',
             'invoice_id' => '',
         ]);

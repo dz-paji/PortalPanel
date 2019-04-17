@@ -14,7 +14,13 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    @if($isPaid == 1)
+                    <p>您已完成支付，若有任何问题，请与右下角客服联系</p>
+                    @else
+                    <p>您还未支付报名费用，请及时缴纳以完成报名。若有任何问题，请与右下角客服联系</p>
+                    <p>请选择您的支付方式：</p>
+                    <li><a href="https://google.com"><img src="img/alipay.png" width="150px"></a></li>
+                    @endif
                 </div>
             </div>
         </div>
