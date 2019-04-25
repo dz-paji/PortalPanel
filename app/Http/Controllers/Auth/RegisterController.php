@@ -51,22 +51,7 @@ class RegisterController extends Controller
         return Validator::make($data, [
             'name' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:11', 'max:11', 'confirmed'],
-            'school' => ['required', 'string'],
-            'age' => ['required', 'integer'],
-            'gender' => ['required'],
-            'id_number' => ['required', 'max:18', 'min:18'],
-            'birthday' => ['required', 'date'],
-            'address' => ['required', 'string'],
-            'ethnic' => ['required', 'string'],
-            'subject' => ['required', 'string'],
-            'wechat' => ['required', 'string'],
-            'contact_other' => ['string'],
-            'room_set' => ['required','string'],
-            'roomate' => ['string'],
-            'is_paid' => ['boolean'],
-            'payment_gateway' => ['string'],
-            'invoice_id' => ['string'],            
+            'password' => ['required', 'string', 'min:8', 'confirmed'],
         ]);
     }
 
@@ -81,24 +66,7 @@ class RegisterController extends Controller
         return User::create([
             'name' => $data['name'],
             'email' => $data['email'],
-            'password' => $data['password'],
-            'school' => $data['school'],
-            'age' => $data['age'],
-            'gender' => $data['gender'],
-            'id_number' => $data['id_number'],
-            'birthday' => $data['birthday'],
-            'address' => $data['birthday'],
-            'ethnic' => $data['ethnic'],
-            'subject' => $data['subject'],
-            'wechat' => $data['wechat'],
-            'contact_other' => $data['contact_other'],
-            'room_set' => $data['room_set'],
-            'rommate' => $data['rommate'],
-            'is_paid' => $data['false'],
-            'payment_gateway' => '',
-            'invoice_id' => '',
+            'password' => Hash::make($data['password']),
         ]);
     }
- 
- 
 }

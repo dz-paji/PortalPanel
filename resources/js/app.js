@@ -31,3 +31,7 @@ Vue.component('example-component', require('./components/ExampleComponent.vue').
 const app = new Vue({
     el: '#app'
 });
+
+import './bootstrap'
+import M from 'materialize-css'
+import axios from 'axios'

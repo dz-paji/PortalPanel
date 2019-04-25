@@ -12,157 +12,52 @@
                         @csrf
 
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('姓名') }}</label>
+                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
 
                             <div class="col-md-6">
-                                <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
+                                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
-                                @if ($errors->has('name'))
+                                @error('name')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('name') }}</strong>
+                                        <strong>{{ $message }}</strong>
                                     </span>
-                                @endif
+                                @enderror
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('邮箱地址') }}</label>
+                            <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('E-Mail Address') }}</label>
 
                             <div class="col-md-6">
-                                <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
+                                <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email">
 
-                                @if ($errors->has('email'))
+                                @error('email')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('email') }}</strong>
+                                        <strong>{{ $message }}</strong>
                                     </span>
-                                @endif
+                                @enderror
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('电话号码') }}</label>
+                            <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password" type="text" class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}" name="password" required>
+                                <input id="password" type="password" class="form-control @error('password') is-invalid @enderror" name="password" required autocomplete="new-password">
 
-                                @if ($errors->has('password'))
+                                @error('password')
                                     <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('password') }}</strong>
+                                        <strong>{{ $message }}</strong>
                                     </span>
-                                @endif
+                                @enderror
                             </div>
                         </div>
 
                         <div class="form-group row">
-                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('确认电话号码') }}</label>
+                            <label for="password-confirm" class="col-md-4 col-form-label text-md-right">{{ __('Confirm Password') }}</label>
 
                             <div class="col-md-6">
-                                <input id="password-confirm" type="text" class="form-control" name="password_confirmation" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('学校') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="school" type="text" class="form-control" name="school" value="{{ old('school') }}" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('年龄') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="age" type="text" class="form-control" name="age" value="{{ old('age') }}" required>
-                                
-                                @if ($errors->has('password'))
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </span>
-                                @endif
-
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('性别') }}</label>
-
-                            <div class="col-md-6">
-                            <select class="form-control" name="gender" id="gender" required>
-                                <option value="男">男</option>
-                                <option value="女">女</option>
-                            </select>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('身份证号') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="id_number" type="text" class="form-control" name="id_number" value="{{ old('id_number') }}" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('生日') }}</label>
-
-                            <div class="col-md-6">
-                                <input type="date" class="form-control" name="birthday" value="birthday" id="birthday" autocomplete="off" />
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('地址') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="address" type="text" class="form-control" name="address" value="{{ old('address') }}" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('民族') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="ethnic" type="text" class="form-control" name="ethnic" value="{{ old('ethnic') }}" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('倾向的 subject') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="subject" type="text" class="form-control" name="subject" value="{{ old('subject') }}" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('微信号') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="wechat" type="text" class="form-control" name="wechat" value="{{ old('wechat') }}" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('其他联系方式') }}</label>
-                            <div class="col-md-6">
-                                <input id="contact_other" type="text" class="form-control" name="contact_other" value="{{ old('contact_other') }}" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('房间类型') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="room_set" type="text" class="form-control" name="room_set" value="{{ old('room_set') }}" required>
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label for="school" class="col-md-4 col-form-label text-md-right">{{ __('首选室友(如果有)') }}</label>
-
-                            <div class="col-md-6">
-                                <input id="rommate" type="text" class="form-control" name="rommate" value="{{ old('roomate') }}" required>
+                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
                             </div>
                         </div>
 
