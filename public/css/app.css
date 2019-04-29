@@ -73,6 +73,13 @@ body {
   color: #212529;
   text-align: left;
   background-color: #f8fafc;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 [tabindex="-1"]:focus {

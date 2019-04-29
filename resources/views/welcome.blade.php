@@ -9,6 +9,7 @@
   <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/app.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
   <nav class="white" role="navigation">
@@ -21,7 +22,7 @@
       <ul id="nav-mobile" class="sidenav">
         <li><a href="login">缴费</a></li>
       </ul>
-      <a href="login" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">缴费</i></a>
+      <a href="login" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
     </div>
   </nav>
 

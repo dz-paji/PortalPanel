@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use DB;
+use Auth;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -23,6 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $isPaid = DB::table('users')->where('id', Auth::user()->id)->value('is_paid');
+        return view('home', ['isPaid' => $isPaid]);
     }
 }
