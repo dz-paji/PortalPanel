@@ -18,7 +18,7 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
-    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!--<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />-->
     <link href="https://fonts.loli.net/css?family=Nunito" rel="stylesheet" type="text/css">
 
     <!-- Styles -->
@@ -26,16 +26,42 @@
 </head>
 
 <body>
+    <nav class="wine-red lighten-1" role="navigation">
+        <div class="nav-wrapper container ">
+            <a id="logo-container" href="{{ url('/') }}" class="brand-logo">
+                {{ config('app.name', 'Laravel') }}
+            </a>
+            <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
+                @guest
+                <li><a href="login">缴费</a></li>
+                @if (Route::has('register'))
+                <li><a href="register">报名</a></li>
+                @endif
+                @else
+                @endguest
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                @guest
+                <li><a href="login" class="wine-red-text text-lighten-1"><i class="material-icons">account_balance_wallet</i>缴费</a></li>
+                @if (Route::has('register'))
+                <li><a href="register" class="wine-red-text text-lighten-1"><i class="material-icons">account_box</i>报名</a></li>
+                @endif
+                @else
+                @endguest
+            </ul>
+            <a href="login" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
+        </div>
+    </nav>
+
     <div id="app">
-        <nav class="nav-wrapper blue-grey  lighten-3 ">
+        <!-- <nav class="nav-wrapper wine-red  lighten-1">
             <div class="container">
                 <a class="navbar-brand " href="{{ url('/') }}">
                     {{ config('app.name', 'Laravel') }}
                 </a>
 
-                <!-- Right Side Of Navbar -->
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <!-- Authentication Links -->
+                <ul id="nav-mobile" class="sidenav">
                     @guest
                     <li>
                         <a href="{{ route('login') }}">{{ __('登陆') }}</a>
@@ -65,20 +91,20 @@
                 </ul>
             </div>
     </div>
-    </nav>
+    </nav>-->
 
-    <main class="py-4">
-        @yield('content')
-    </main>
+        <main class="py-4">
+            @yield('content')
+        </main>
     </div>
-</body>
-<footer class="page-footer wine-red">
-    <div class="footer-copyright">
-        <div class="container">
-            <a class="brown-text text-lighten-3" href="http://www.miitbeian.gov.cn/">冀ICP备17022988-号3</a>
-            <p>Powered by <a class="brown-text text-lighten-3" href="https://github.com/dz-paji/PortalPanel">PortalPanel</a></p>
+    <footer class="page-footer wine-red" style="position:fixed;bottom:0;left:0;width:100%;">
+        <div class="footer-copyright">
+            <div class="container">
+                <a class="brown-text text-lighten-3" href="http://www.miitbeian.gov.cn/">冀ICP备17022988-号3</a>
+                <p>©2019 MicroDistance. Powered by <a class="brown-text text-lighten-3" href="https://github.com/dz-paji/PortalPanel">PortalPanel</a></p>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</body>
 
 </html>

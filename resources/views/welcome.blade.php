@@ -17,7 +17,7 @@
       <a id="logo-container" href="#" class="brand-logo">MicroDistance</a>
       <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
         <li><a href="login">缴费</a></li>
-        <li><a href="login">报名</a></li>
+        <li><a href="register">报名</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
@@ -138,7 +138,7 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">微距教育</h5>
+          <h5 class="white-text">关于我们</h5>
           <p class="grey-text text-lighten-4">微距教育成立于 2015 年。</p>
         </div>
         <div class="col l3 s12">
@@ -152,7 +152,8 @@
     <div class="footer-copyright">
       <div class="container">
         <a class="brown-text text-lighten-3" href="http://www.miitbeian.gov.cn/">冀ICP备17022988-号3</a>
-        <p>Powered by <a class="brown-text text-lighten-3" href="https://github.com/dz-paji/PortalPanel">PortalPanel</a></p>
+        <p> </p>
+        <p>©2019 MicroDistance. Powered by <a class="brown-text text-lighten-3" href="https://github.com/dz-paji/PortalPanel">PortalPanel</a> </p>
       </div>
     </div>
   </footer>
