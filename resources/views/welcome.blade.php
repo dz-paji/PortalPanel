@@ -125,8 +125,8 @@
           <h4>联系我们</h4>
           <p class=" light">您可以在本网站右下角联系我们的在线客服，或点击下方按钮，选择更多联系途径。</p>
           <div class="row center">
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light wine-red lighten-1">微信公众号</a>
-            <a href="#" id="download-button" class="btn-large waves-effect waves-light wine-red lighten-1">发送邮件</a>
+            <a onclick="openModal1()" id="download-button" class="btn-large waves-effect waves-light wine-red lighten-1">微信公众号</a>
+            <a id="download-button" class="btn-large waves-effect waves-light wine-red lighten-1">发送邮件</a>
           </div>
         </div>
       </div>
@@ -139,23 +139,33 @@
       <div class="row">
         <div class="col l6 s12">
           <h5 class="white-text">关于我们</h5>
-          <p class="grey-text text-lighten-4">微距教育成立于 2015 年。</p>
+          <p class="grey-text text-lighten-4">微距教育启程于 2015 年的夏天。是华北地区⾸个完全由⾼中⽣组织策划的学术论坛。论坛秉承“ 广阅以知天下︔ 勤思以辨是非︔ 能⾔以聚宾朋︔ 无畏以临天下” 的理念， 且提出“ 广阅 勤思 能⾔无畏” 的论坛宗旨， 希望培养对当今
+            世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民。</p>
         </div>
         <div class="col l3 s12">
           <h5 class="white-text">更多链接</h5>
           <ul>
-            <li><a class="white-text" href="#">新闻站</a></li>
+            <li><a class="waves-effect waves-light white-text" onclick="openModal1()">微信公众号</a></li>
           </ul>
         </div>
       </div>
-    </div>
-    <div class="footer-copyright">
-      <div class="container">
-        <a class="brown-text text-lighten-3" href="http://www.miitbeian.gov.cn/">冀ICP备17022988-号3</a>
-        <p> </p>
-        <p>©2019 MicroDistance. Powered by <a class="brown-text text-lighten-3" href="https://github.com/dz-paji/PortalPanel">PortalPanel</a> </p>
+      <div id="modal1" class="modal">
+            <div class="modal-content">
+              <div id="modal_content" class="row">
+
+              </div>
+              <div class="modal-footer">
+                <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Ok</a>
+              </div>
+            </div>
+          </div>
+      <div class="footer-copyright">
+        <div class="container">
+          <a class="brown-text text-lighten-3" href="http://www.miitbeian.gov.cn/">冀ICP备17022988-号3</a>
+          <p> </p>
+          <p>©2019 MicroDistance. Powered by <a class="brown-text text-lighten-3" href="https://github.com/dz-paji/PortalPanel">PortalPanel</a> </p>
+        </div>
       </div>
-    </div>
   </footer>
 
 
@@ -163,6 +173,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="resources/interReact.js"></script>
 
 </body>
 
