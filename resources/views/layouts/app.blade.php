@@ -14,12 +14,13 @@
     <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/init.js')}}" defer></script>
 
-    <!-- Fonts -->
+    <!-- Fonts And CSS -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
     <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!--<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />-->
     <link href="https://fonts.loli.net/css?family=Nunito" rel="stylesheet" type="text/css">
+
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -33,9 +34,9 @@
             </a>
             <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
                 @guest
-                <li><a href="login">缴费</a></li>
+                <li><a href="login" class="white-text">缴费</a></li>
                 @if (Route::has('register'))
-                <li><a href="register">报名</a></li>
+                <li><a href="register" class="white-text">报名</a></li>
                 @endif
                 @else
                 @endguest
