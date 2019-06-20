@@ -1,4 +1,5 @@
 <?php
+use Illuminate\Routing\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +19,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::group(['middleware' => ['isLogin']], function() {
+    Route::post('payment/create', 'PaymentController@create'); // 创建支付
+    Route::get('payment/getStatus', 'PaymentController@getStatus'); // 获取支付单状态
+    Route::get('payment/{sn}', 'PaymentController@detail'); // 支付单详情
+
+});
