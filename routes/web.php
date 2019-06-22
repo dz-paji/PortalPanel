@@ -1,5 +1,7 @@
 <?php
 use Illuminate\Support\Facades\Route;
+use Faker\Provider\sv_SE\Payment;
+use App\Http\Controllers\PaymentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,10 +21,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Route::group(['middleware' => ['isLogin']], function() {
-    Route::post('payment/create', 'PaymentController@create'); // 创建支付
-    Route::get('payment/getStatus', 'PaymentController@getStatus'); // 获取支付单状态
-    Route::get('payment/{sn}', 'PaymentController@detail'); // 支付单详情
-
-});
+//Route::post('payment/create', 'PaymentController@create'); // 创建支付
+//Route::get('payment/getStatus', 'PaymentController@getStatus'); // 获取支付单状态
+//Route::get('payment/{sn}', 'PaymentController@detail'); // 支付单详情
+Route::get('payment/alipay', 'PaymentController@alipay');//支付宝支付
+Route::get('payment/wechat', 'PaymentController@wechat');//微信支付
