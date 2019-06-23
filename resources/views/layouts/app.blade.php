@@ -17,7 +17,7 @@
     <!-- Fonts And CSS -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <!--<link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />-->
     <link href="https://fonts.loli.net/css?family=Nunito" rel="stylesheet" type="text/css">
 
