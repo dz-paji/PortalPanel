@@ -12,7 +12,7 @@
                             <li class="collection-item">应付金额： 1499 元</li>
                             <li class="collection-item">款项需人工审核，请您耐心等待。确认支付完成后直接关闭网页即可</li>
                             <li class="collection-item">请在付款备注处备注: <strong><code>{{$id}}</code><strong></li>
-                            <li class="collection-item"><img src="https://i.loli.net/2019/06/22/5d0e2420bdd1c31034.png"
+                            <li class="collection-item"><img src="#"
                                     alt="Snipaste_2019-06-22_20-49-41.png" title="Snipaste_2019-06-22_20-49-41.png">
                             </li>
                         </ul>
