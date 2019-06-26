@@ -26,3 +26,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 //Route::get('payment/{sn}', 'PaymentController@detail'); // 支付单详情
 Route::get('payment/alipay', 'PaymentController@alipay');//支付宝支付
 Route::get('payment/wechat', 'PaymentController@wechat');//微信支付
+Route::get('projects/decide', 'ProjectsController@create');//Project 选择器
+Route::post('projects', 'ProjectsController@store');//結果儲存器
