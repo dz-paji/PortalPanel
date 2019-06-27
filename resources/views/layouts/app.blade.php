@@ -34,12 +34,10 @@
             </a>
             <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
                 @guest
-                <li><a href="login" class="white-text">缴费</a></li>
+                <li><a href="{{ url('login') }}" class="white-text">缴费</a></li>
                 @if (Route::has('register'))
-                <li><a href="register" class="white-text">报名</a></li>
-                @endif
-                @else
-                @endguest
+                <li><a href="{{ url('register') }}" class="white-text">报名</a></li>
+                @endif @else @endguest
             </ul>
 
             <ul id="nav-mobile" class="sidenav">
@@ -47,9 +45,7 @@
                 <li><a href="login" class="wine-red-text text-lighten-1"><i class="material-icons">account_balance_wallet</i>缴费</a></li>
                 @if (Route::has('register'))
                 <li><a href="register" class="wine-red-text text-lighten-1"><i class="material-icons">account_box</i>报名</a></li>
-                @endif
-                @else
-                @endguest
+                @endif @else @endguest
             </ul>
             <a href="login" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
         </div>
