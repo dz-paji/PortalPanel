@@ -62,22 +62,36 @@
                 <!-- random image -->
             </li>
             <li>
-                <img src="https://lorempixel.com/580/250/nature/3">
+                <img src="/images/s3.jpg">
                 <!-- random image -->
             </li>
             <li>
-                <img src="https://lorempixel.com/580/250/nature/4">
+                <img src="/images/s4.jpg">
                 <!-- random image -->
             </li>
         </ul>
     </div>
+    <!-- <section class="last-content py-5"> -->
 
-    <div class="container ">
-        <div class="col s12 center">
-            <h4>关于我们</h4>
-            <p>微距教育启程于 2015 年的夏天. 是华北地区⾸个完全由⾼中⽣组织策划的学术论坛. 论坛秉承"广阅以知天下; 勤思以辨是非; 能⾔以聚宾朋; 无畏以临天下" 的理念, 且提出 "广阅 勤思 能⾔无畏" 的论坛宗旨, 希望培养对当今 世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民</p>
+    <div class="container py-md-3 text-center">
+        <div class="last-lavi-inner-content px-lg-5">
+            <h3 class="mb-4 tittle-wthree">微距 2019 年暑期论坛 <span>已开始报名 </span> !</h3>
+            <p class="px-lg-5">暑假有何打算？微距论坛了解一下？</p>
+            <div class="buttons mt-md-4 mt-3">
+                <a href="#apply" class="btn btn-default">立刻报名</a>
+            </div>
         </div>
     </div>
+    <!-- </section> -->
+
+    <section class="last-content py-5">
+        <div class="container">
+            <div class="col s12 center">
+                <h3 class="mb-4 tittle-wthree">关于我们</h3>
+                <p>微距教育启程于 2015 年的夏天. 是华北地区⾸个完全由⾼中⽣组织策划的学术论坛. 论坛秉承"广阅以知天下; 勤思以辨是非; 能⾔以聚宾朋; 无畏以临天下" 的理念, 且提出 "广阅 勤思 能⾔无畏" 的论坛宗旨, 希望培养对当今 世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民</p>
+            </div>
+        </div>
+    </section>
     <div class="welcome py-5" id="features">
         <div class="container py-xl-5 py-lg-3">
             <div class="row">
@@ -129,10 +143,11 @@
             </div>
         </div>
     </div>
+
     <section class="services text-center py-5" id="services">
         <div class="container py-md-5">
             <h3 class="tittle-wthree text-center">关于微距</h3>
-            <p class="sub-tittle text-center mt-4 mb-sm-5 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+            <p class="sub-tittle text-center mt-4 mb-sm-5 mb-4">关于微距，我们有这些事情想要告诉你</p>
             <div class="row ser-sec-1">
                 <div class="col-md-4 ser-w3pvt-gd-wthree">
                     <div class="icon">
@@ -250,19 +265,8 @@
         </div>
     </section>
 
-    <section class="last-content py-5">
-        <div class="container py-md-3 text-center">
-            <div class="last-lavi-inner-content px-lg-5">
-                <h3 class="mb-4 tittle-wthree">微距 2019 年暑期论坛 <span>已开始报名 </span> !</h3>
-                <p class="px-lg-5">暑假有何打算？微距论坛了解一下？</p>
-                <div class="buttons mt-md-4 mt-3">
-                    <a href="#apply" class="btn btn-default">立刻报名</a>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section class="testimonials py-5" id="test">
+    <section class="apply-main py-5" id="test">
         <div class="container py-xl-5 py-lg-3">
             <h3 class="tittle-wthree text-center">用户反馈</h3>
             <p class="sub-tittle text-center mt-4 mb-sm-5 mb-4">真实的用户评价，不添油加醋</p>
