@@ -8,7 +8,7 @@
 
     <!-- CSS  -->
     <link href="https://fonts.loli.net/icon?family=Material+Icons" rel="stylesheet">
-    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
     <link href="https://cdn.bootcss.com/font-awesome/5.8.2/css/all.min.css" rel="stylesheet">
@@ -151,14 +151,14 @@
             <div class="row ser-sec-1">
                 <div class="col-md-4 ser-w3pvt-gd-wthree">
                     <div class="icon">
-                        <span class="fa fa-lightbulb-o s1"></span>
+                        <span class="fas fa-hotel"></span>
+
                     </div>
                     <!-- Icon ends here -->
                     <div class="service-content">
-                        <h5> New Classes</h5>
+                        <h5>酒店</h5>
                         <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
-                        </p>
+                            下榻滨海喜来登五星酒店 </p>
                     </div>
                 </div>
                 <div class="col-md-4 ser-w3pvt-gd-wthree">
@@ -167,21 +167,21 @@
                     </div>
                     <!-- Icon ends here -->
                     <div class="service-content">
-                        <h5>Expert Mentors</h5>
+                        <h5>嘉宾</h5>
                         <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
+                            我们的嘉宾来自清华北大，长青藤，G5 等高等院校
                         </p>
                     </div>
                 </div>
                 <div class="col-md-4 ser-w3pvt-gd-wthree">
                     <div class="icon">
-                        <span class="fa fa-question-circle s3"></span>
+                        <span class="fas fa-wine-glass-alt s3"></span>
                     </div>
                     <!-- .Icon ends here -->
                     <div class="service-content">
-                        <h5>Live Support</h5>
+                        <h5>鸡尾酒品鉴会</h5>
                         <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
+                            通过鸡尾酒品鉴会，了解酒类知识
                         </p>
                     </div>
                 </div>
@@ -189,7 +189,7 @@
             <div class="row ser-sec-1">
                 <div class="col-md-4 ser-w3pvt-gd-wthree">
                     <div class="icon">
-                        <span class="fa fa-gift s6"></span>
+                        <span class="fas fa-comments"></span>
                     </div>
                     <!-- Icon ends here -->
                     <div class="service-content">
@@ -266,14 +266,14 @@
     </section>
 
 
-    <section class="apply-main py-5" id="test">
+    <section class="welcome py-5" id="test">
         <div class="container py-xl-5 py-lg-3">
             <h3 class="tittle-wthree text-center">用户反馈</h3>
             <p class="sub-tittle text-center mt-4 mb-sm-5 mb-4">真实的用户评价，不添油加醋</p>
             <div class="row">
                 <div class="col-lg-4 testimonials_grid mt-3">
                     <div class="p-lg-5 p-4 testimonials-gd-vj">
-                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod possimus, omnis voluptas.
+                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span>
                         </p>
                         <div class="row mt-4">
                             <div class="col-3 testi-img-res">
