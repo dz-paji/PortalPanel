@@ -71,7 +71,6 @@
             </li>
         </ul>
     </div>
-    <!-- <section class="last-content py-5"> -->
 
     <div class="container py-md-3 text-center">
         <div class="last-lavi-inner-content px-lg-5">
@@ -82,7 +81,6 @@
             </div>
         </div>
     </div>
-    <!-- </section> -->
 
     <section class="last-content py-5">
         <div class="container">
@@ -186,83 +184,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row ser-sec-1">
-                <div class="col-md-4 ser-w3pvt-gd-wthree">
-                    <div class="icon">
-                        <span class="fas fa-comments"></span>
-                    </div>
-                    <!-- Icon ends here -->
-                    <div class="service-content">
-                        <h5>Lifetime Access</h5>
-                        <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 ser-w3pvt-gd-wthree">
-                    <div class="icon">
-                        <span class="fa fa-angellist s5"></span>
-                    </div>
-                    <!-- Icon ends here -->
-                    <div class="service-content">
-                        <h5>Membership</h5>
-                        <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 ser-w3pvt-gd-wthree">
-                    <div class="icon">
-                        <span class="fa fa-folder-open-o s6"></span>
-                    </div>
-                    <!-- .Icon ends here -->
-                    <div class="service-content">
-                        <h5>25000+ Courses</h5>
-                        <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="row ser-sec-1">
-                <div class="col-md-4 ser-w3pvt-gd-wthree border-bottom-0 bottom-vj-gds">
-                    <div class="icon">
-                        <span class="fa fa-black-tie s3"></span>
-                    </div>
-                    <!-- Icon ends here -->
-                    <div class="service-content">
-                        <h5>Law & Ethic</h5>
-                        <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 ser-w3pvt-gd-wthree border-bottom-0 bottom-vj-gds">
-                    <div class="icon">
-                        <span class="fa fa-music s2"></span>
-                    </div>
-                    <!-- Icon ends here -->
-                    <div class="service-content">
-                        <h5>Art and Music</h5>
-                        <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 ser-w3pvt-gd-wthree border-bottom-0">
-                    <div class="icon">
-                        <span class="fa fa-bar-chart s7"></span>
-                    </div>
-                    <!-- .Icon ends here -->
-                    <div class="service-content">
-                        <h5>Data Scientist</h5>
-                        <p class="serp">
-                            Quisque sagittis lacus eu lorem sodalesd enean adipiscing.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
     </section>
 
 
@@ -273,14 +194,14 @@
             <div class="row">
                 <div class="col-lg-4 testimonials_grid mt-3">
                     <div class="p-lg-5 p-4 testimonials-gd-vj">
-                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span>
+                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span>终于找到组织，谢谢微距，课程内容实在太精彩，完全超乎想象，已经报名席位学习
                         </p>
                         <div class="row mt-4">
                             <div class="col-3 testi-img-res">
                                 <img src="images/te1.jpg" alt=" " class="img-fluid" />
                             </div>
                             <div class="col-9 testi_grid">
-                                <h5 class="mb-2">托马斯 查理</h5>
+                                <h5 class="mb-2">Alex</h5>
                                 <p>学生代表</p>
                             </div>
                         </div>
@@ -288,14 +209,14 @@
                 </div>
                 <div class="col-lg-4 testimonials_grid mt-3">
                     <div class="p-lg-5 p-4 testimonials-gd-vj">
-                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span>Quisque sagittis lacus eu lorem , cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod possimus.
+                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span>很多新奇的领域居然也有涉及，微距真的太棒了👍👍
                         </p>
                         <div class="row mt-4">
                             <div class="col-3 testi-img-res">
                                 <img src="images/te2.jpg" alt=" " class="img-fluid" />
                             </div>
                             <div class="col-9 testi_grid">
-                                <h5 class="mb-2">Dylan Wood</h5>
+                                <h5 class="mb-2">YANG</h5>
                                 <p>嘉宾</p>
                             </div>
                         </div>
@@ -303,24 +224,42 @@
                 </div>
                 <div class="col-lg-4 testimonials_grid mt-3">
                     <div class="p-lg-5 p-4 testimonials-gd-vj">
-                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span> Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod possimus, omnis voluptas.
+                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span> 参加微距真的是为以后的选课打好了一定的基础，我本来没有确定好到底想要学什么，参加了一年的项目，现在已经有了方向了，今年再来！
                         </p>
                         <div class="row mt-4">
                             <div class="col-3 testi-img-res">
                                 <img src="images/te3.jpg" alt=" " class="img-fluid" />
                             </div>
                             <div class="col-9 testi_grid">
-                                <h5 class="mb-2">斯蒂芬 阿姆斯壮</h5>
+                                <h5 class="mb-2">Chris</h5>
                                 <p>学生代表</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
 
+    <section class="partner">
+        <div class="padding-top padding-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                            <h4 class="white-text center-align">合作伙伴</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <ul class="logo-wrap">
+                            <li><img src="baidu-fill.svg"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <!--   Icon Section   -->
     <!-- <div class="row ">
         <div class="col s12 m4 ">
@@ -406,13 +345,13 @@
             <div class="row ">
                 <div class="col l6 s12 ">
                     <h5 class="white-text ">关于我们</h5>
-                    <p class="grey-text text-lighten-4 ">微距教育启程于 2015 年的夏天。是华北地区⾸个完全由⾼中⽣组织策划的学术论坛。论坛秉承“ 广阅以知天下︔ 勤思以辨是非︔ 能⾔以聚宾朋︔ 无畏以临天下” 的理念， 且提出“ 广阅 勤思 能⾔无畏” 的论坛宗旨， 希望培养对当今 世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民。
+                    <p class="grey-text text-lighten-4 ">微距教育启程于 2015 年的夏天. 是华北地区⾸个完全由⾼中⽣组织策划的学术论坛. 论坛秉承 "广阅以知天下; 勤思以辨是非; 能⾔以聚宾朋; 无畏以临天下" 的理念, 且提出 "广阅 勤思 能⾔无畏" 的论坛宗旨, 希望培养对当今 世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民
                     </p>
                 </div>
                 <div class="col l3 s12 ">
                     <h5 class="white-text ">更多链接</h5>
                     <ul>
-                        <li><a class="waves-effect waves-light white-text " onclick="$( '#modal1').modal( 'open'); ">微信公众号</a></li>
+                        <li><a class="waves-effect waves-light white-text " href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwMDYyNTEyNg==#wechat_redirect" target="_Blank">微信公众号</a></li>
                     </ul>
                 </div>
             </div>
@@ -420,27 +359,15 @@
                 <div class="container ">
                     <a class="brown-text text-lighten-3 " href="http://www.miitbeian.gov.cn/ ">冀ICP备17022988-号3</a>
                     <p> </p>
-                    <p>©2019 MicroDistance. Powered by <a class="brown-text text-lighten-3 " href="https://github.com/dz-paji/PortalPanel ">PortalPanel</a> </p>
+                    <p>©2019 MicroDistance. Powered by <a class="brown-text text-lighten-3 " href="https://github.com/dz-paji/PortalPanel" target="_Blank">PortalPanel</a> </p>
                 </div>
             </div>
     </footer>
-
-    <div id="modal1 " class="modal odal-fixed-footer ">
-        <div class="modal-content center-align ">
-            <img width="260px " height="260px " src="https://i.loli.net/2019/05/10/5cd538ad78caa.png ">
-            <h6>请扫描上方二维码关注我们</h6>
-        </div>
-        <div class="modal-footer ">
-            <a href="#! " class="modal-action modal-close waves-effect waves-green btn-flat ">关闭</a>
-        </div>
-    </div>
-
 
     <!--  Scripts-->
     <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
     <script src="js/materialize.js "></script>
     <script src="js/init.js "></script>
-    <script src="js/interReact.js "></script>
 
 </body>
 <script>

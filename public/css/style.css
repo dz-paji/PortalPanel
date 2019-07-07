@@ -740,6 +740,43 @@ a.button-style {
 }
 
 
+/* Partner */
+
+.partner {
+    background: rgb(40, 48, 56);
+}
+
+.padding-top {
+    padding-top: 100px
+}
+
+.padding-bottom {
+    padding-bottom: 110px
+}
+
+.logo-wrap {
+    position: relative;
+    margin: 0 auto
+}
+
+.logo-wrap,
+.logo-wrap li {
+    padding: 0;
+    text-align: center
+}
+
+.logo-wrap li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 20px 40px
+}
+
+.logo-wrap li img {
+    display: block;
+    height: 35px
+}
+
+
 /* services */
 
 h3.tittle-wthree {
@@ -901,7 +938,7 @@ p.sub-tittle {
 /*-- /mid-content --*/
 
 .last-content {
-    background: #34bf49;
+    background: #66bb6a;
 }
 
 .last-content p {
@@ -923,7 +960,7 @@ p.sub-tittle {
     letter-spacing: 1px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
-    -o- border-radius: 4px;
+    border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     box-shadow: 0 12px 60px rgba(0, 0, 0, .2);
@@ -994,7 +1031,7 @@ p.sub-tittle {
 }
 
 .login button.btn.btn-primary.submit:hover {
-    opacity: : 0.9;
+    opacity: 0.9;
 }
 
 .login h5 {

@@ -16,7 +16,7 @@ class CreateUserMigrate extends Migration
         Schema::create('user_projects', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('email');
-            $table->string('phone');
+            $table->string('name');
             $table->char('project');
             $table->timestamps();
         });

@@ -8,7 +8,7 @@
 
                     @if (count($errors) > 0)
                     <div class="alert alert-danger">
-                        <strong>新增失败</strong> 输入不符合要求<br><br> {!! implode('<br>', $errors->all()) !!}
+                        <strong>错误</strong> 输入不符合要求<br><br> {!! implode('<br>', $errors->all()) !!}
                     </div>
                     @endif
 
@@ -25,7 +25,7 @@
                         <div class="form-group row">
                             <label for="gender" class="col-md-4 col-form-label text-md-right">姓名</label>
                             <div class="col-md-6">
-                                <input type="text" name="nanme" class="form-control" required="required" value="{{ old('name') }}" placeholder="请输入您的电话">
+                                <input type="text" name="name" class="form-control" required="required" value="{{ old('name') }}" placeholder="请输入您的姓名">
                             </div>
                         </div>
 
@@ -33,19 +33,35 @@
                         <div class="form-group row">
                             <label for="gender" class="col-md-4 col-form-label text-md-right">Project</label>
                             <div class="col-md-6">
-                                <select class="form-control" name="project" value="{{ old('gender') }}" required>
-                                    @if($num_p1 < 2 )
-                                    <option value="project1">project1</option>
+                                <select class="form-control" name="project" value="{{ old('project') }}" required>
+                                    @if($p1 < 2 )
+                                    <option value="project1">陈子熙-编程、人工智能、机器学习</option>
                                     @endif
-                                    @if($num_p2 < 2 )
-                                    <option value="project2">project2</option>
+                                    @if($p2 < 2 )
+                                    <option value="project2">康讯-环球市场投资与财富管理</option>
                                     @endif
-                                    @if($num_p3 < 2 )
-                                    <option value="project3">project3</option>
+                                    @if($p3 < 2 )
+                                    <option value="project3">刘科余-设计的过程体验</option>
                                     @endif
-                                    @if($num_p4 < 2 )
-                                    <option value="project4">project4</option>
+                                    @if($p4 < 2 )
+                                    <option value="project4">刘晓琦-人类的视觉皮层是怎样处理视觉信息的?</option>
                                     @endif
+                                    @if($p5 < 2)
+                                    <option value="project5">刘韵吉-走出去和引进来,地球村居民须知</option>
+                                    @endif
+                                    @if($p6 < 2)
+                                    <option value="project6">吴俁婷-言语无法表达之时, 便是音乐沟通之际</option>
+                                    @endif
+                                    @if($p7 < 2)
+                                    <option value="project7">薛卓-麦克白初探</option>
+                                    @endif
+                                    @if($p8 < 2)
+                                    <option value="project8">张玮烨-拿什么拯救你,我的大白兔奶糖</option>
+                                    @endif
+                                    @if($p9 < 2)
+                                    <option value="project9">周奕彤-法学初探</option>
+                                    @endif
+
                                 </select> @error('gender')
                                 <span class="invalid-feedback" role="alert">
                                     <strong>{{ $message }}</strong>
