@@ -90,7 +90,7 @@
                         <div class="form-group row">
                             <label for="desc" class="col-md-4 col-form-label text-md-right">选择第一志愿的理由</label>
                             <div class="col-md-6">
-                                <input type="text" name="desc" class="form-control" required="required" value="{{ old('desc') }}" placeholder="请在这里输入您选择第一志愿的理由">
+                                <input type="text" name="desc" class="form-control" required="required" value="{{ old('desc') }}" placeholder="请在这里输入您选择第一志愿的理由. 此文本框可无限向后延长">
                             </div>
                         </div>
 
@@ -117,6 +117,13 @@
         $('select').formSelect();
     });
     var instance = M.FormSelect.getInstance(elem);
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i["DaoVoiceObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;a.charset="utf-8";m.parentNode.insertBefore(a,m)})(window,document,"script",('https:' == document.location.protocol ? 'https:' : 'http:') + "//widget.daovoice.io/widget/fd0e0a36.js","daovoice")
+daovoice('init', {
+  app_id: "fd0e0a36"
+});
+daovoice('update');
 </script>
 
 @endsection
