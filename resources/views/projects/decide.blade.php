@@ -90,7 +90,9 @@
                         <div class="form-group row">
                             <label for="desc" class="col-md-4 col-form-label text-md-right">选择第一志愿的理由</label>
                             <div class="col-md-6">
-                                <input type="text" name="desc" class="form-control" required="required" value="{{ old('desc') }}" placeholder="请在这里输入您选择第一志愿的理由. 此文本框可无限向后延长">
+                                <textarea id="desc" class="materialize-textarea" name="desc"></textarea>
+                                <label for="desc">请在这里输入您选择第一志愿的理由. 此文本框可无限延长</label>
+                                <!-- <input type="text" name="desc" class="form-control" required="required" value="{{ old('desc') }}" placeholder="请在这里输入您选择第一志愿的理由. 此文本框可无限向后延长"> -->
                             </div>
                         </div>
 
