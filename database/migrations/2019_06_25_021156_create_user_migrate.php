@@ -17,7 +17,10 @@ class CreateUserMigrate extends Migration
             $table->bigIncrements('id');
             $table->string('email');
             $table->string('name');
-            $table->char('project');
+            $table->string('project1');
+            $table->string('project2');
+            $table->string('project3');
+            $table->string('desc');
             $table->timestamps();
         });
     }
