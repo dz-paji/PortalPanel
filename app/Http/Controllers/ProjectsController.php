@@ -13,11 +13,11 @@ class ProjectsController extends Controller
         $num_p2 = DB::table('projects')->value('projects2');
         $num_p3 = DB::table('projects')->value('projects3');
         $num_p4 = DB::table('projects')->value('projects4');
-        $num_p5 = DB::table('projects')->value('projects4');        
-        $num_p6 = DB::table('projects')->value('projects4');        
-        $num_p7 = DB::table('projects')->value('projects4');        
-        $num_p8 = DB::table('projects')->value('projects4');        
-        $num_p9 = DB::table('projects')->value('projects4');        
+        $num_p5 = DB::table('projects')->value('projects5');        
+        $num_p6 = DB::table('projects')->value('projects6');        
+        $num_p7 = DB::table('projects')->value('projects7');        
+        $num_p8 = DB::table('projects')->value('projects8');        
+        $num_p9 = DB::table('projects')->value('projects9');        
         return view('projects/decide', ['p1' => $num_p1, 'p2' => $num_p2, 'p3' => $num_p3, 'p4' => $num_p4, 'p5' => $num_p5, 'p6' => $num_p6, 'p7' => $num_p7, 'p8' => $num_p8, 'p9' => $num_p9]);
     }
 
@@ -52,7 +52,17 @@ class ProjectsController extends Controller
         } elseif( $project->project == "project3"){
             DB::table('projects')->increment('projects3');
         } elseif( $project->project == "project4"){
-            DB::table('projects')->increment('project4');
+            DB::table('projects')->increment('projects4');
+        } elseif( $project->project == "project5"){
+            DB::table('projects')->increment('projects5');
+        } elseif ( $project->project == "project6"){
+            DB::table('projects')->increment('projects6');
+        } elseif ( $project->project == "project7"){
+            DB::table('projects')->increment('projects7');
+        } elseif ( $project->project == "project8"){
+            DB::table('projects')->increment('projects8');
+        } elseif ( $project->project == "projects9"){
+            DB::table('projects')->increment('project9');
         }
 
         return view('projects/success');

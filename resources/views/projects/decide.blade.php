@@ -34,31 +34,31 @@
                             <label for="gender" class="col-md-4 col-form-label text-md-right">Project</label>
                             <div class="col-md-6">
                                 <select class="form-control" name="project" value="{{ old('project') }}" required>
-                                    @if($p1 < 2 )
+                                    @if($p1 < 8)
                                     <option value="project1">陈子熙-编程、人工智能、机器学习</option>
                                     @endif
-                                    @if($p2 < 2 )
+                                    @if($p2 < 8)
                                     <option value="project2">康讯-环球市场投资与财富管理</option>
                                     @endif
-                                    @if($p3 < 2 )
+                                    @if($p3 < 8)
                                     <option value="project3">刘科余-设计的过程体验</option>
                                     @endif
-                                    @if($p4 < 2 )
+                                    @if($p4 < 8)
                                     <option value="project4">刘晓琦-人类的视觉皮层是怎样处理视觉信息的?</option>
                                     @endif
-                                    @if($p5 < 2)
+                                    @if($p5 < 8)
                                     <option value="project5">刘韵吉-走出去和引进来,地球村居民须知</option>
                                     @endif
-                                    @if($p6 < 2)
+                                    @if($p6 < 8)
                                     <option value="project6">吴俁婷-言语无法表达之时, 便是音乐沟通之际</option>
                                     @endif
-                                    @if($p7 < 2)
+                                    @if($p7 < 8)
                                     <option value="project7">薛卓-麦克白初探</option>
                                     @endif
-                                    @if($p8 < 2)
+                                    @if($p8 < 8)
                                     <option value="project8">张玮烨-拿什么拯救你,我的大白兔奶糖</option>
                                     @endif
-                                    @if($p9 < 2)
+                                    @if($p9 < 8)
                                     <option value="project9">周奕彤-法学初探</option>
                                     @endif
 
