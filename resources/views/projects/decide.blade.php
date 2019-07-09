@@ -46,7 +46,7 @@
                                     <option value="康讯">康讯-环球市场投资与财富管理</option>
                                     <option value="刘科余">刘科余-设计的过程体验</option>
                                     <option value="刘晓琦">刘晓琦-人类的视觉皮层是怎样处理视觉信息的?</option>
-                                    <option value="刘韵吉">刘韵吉-走出去和引进来,地球村居民须知</option>
+                                    <option value="刘韵吉">石韵吉-走出去和引进来,地球村居民须知</option>
                                     <option value="吴俁婷">吴俁婷-言语无法表达之时, 便是音乐沟通之际</option>
                                     <option value="薛卓">薛卓-麦克白初探</option>
                                     <option value="张玮烨">张玮烨-拿什么拯救你,我的大白兔奶糖</option>
@@ -65,7 +65,7 @@
                                     <option value="康讯">康讯-环球市场投资与财富管理</option>
                                     <option value="刘科余">刘科余-设计的过程体验</option>
                                     <option value="刘晓琦">刘晓琦-人类的视觉皮层是怎样处理视觉信息的?</option>
-                                    <option value="刘韵吉">刘韵吉-走出去和引进来,地球村居民须知</option>
+                                    <option value="刘韵吉">石韵吉-走出去和引进来,地球村居民须知</option>
                                     <option value="吴俁婷">吴俁婷-言语无法表达之时, 便是音乐沟通之际</option>
                                     <option value="薛卓">薛卓-麦克白初探</option>
                                     <option value="张玮烨">张玮烨-拿什么拯救你,我的大白兔奶糖</option>
@@ -84,7 +84,7 @@
                                     <option value="康讯">康讯-环球市场投资与财富管理</option>
                                     <option value="刘科余">刘科余-设计的过程体验</option>
                                     <option value="刘晓琦">刘晓琦-人类的视觉皮层是怎样处理视觉信息的?</option>
-                                    <option value="刘韵吉">刘韵吉-走出去和引进来,地球村居民须知</option>
+                                    <option value="刘韵吉">石韵吉-走出去和引进来,地球村居民须知</option>
                                     <option value="吴俁婷">吴俁婷-言语无法表达之时, 便是音乐沟通之际</option>
                                     <option value="薛卓">薛卓-麦克白初探</option>
                                     <option value="张玮烨">张玮烨-拿什么拯救你,我的大白兔奶糖</option>
