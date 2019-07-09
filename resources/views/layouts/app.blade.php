@@ -27,12 +27,12 @@
 </head>
 
 <body>
-    <!-- <nav class="wine-red lighten-1" role="navigation">
+    <nav class="wine-red lighten-1" role="navigation">
         <div class="nav-wrapper container ">
             <a id="logo-container" href="{{ url('/') }}" class="brand-logo">
                 {{ config('app.name', 'Laravel') }}
             </a>
-            <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
+            <!-- <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
                 @guest
                 <li><a href="{{ url('login') }}" class="white-text">缴费</a></li>
                 @if (Route::has('register'))
@@ -47,9 +47,9 @@
                 <li><a href="{{ url('register') }}" class="wine-red-text text-lighten-1"><i class="material-icons">account_box</i>报名</a></li>
                 @endif @else @endguest
             </ul>
-            <a href="{{ url('login') }}" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">dehaze</i></a>
+            <a href="{{ url('login') }}" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">dehaze</i></a> -->
         </div>
-    </nav> -->
+    </nav>
 
     <div id="app">
         <!-- <nav class="nav-wrapper wine-red  lighten-1">

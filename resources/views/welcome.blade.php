@@ -18,10 +18,10 @@
 </head>
 
 <body>
-    <!-- <nav class="wine-red lighten-1" role="navigation">
+    <nav class="wine-red lighten-1" role="navigation">
         <div class="nav-wrapper container ">
             <a id="logo-container" href="#" class="brand-logo">MicroDistance</a>
-            <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
+            <!-- <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
                 <li><a href="{{ url('login') }}">缴费</a></li>
                 <li><a href="{{ url('register') }}">报名</a></li>
             </ul>
@@ -30,9 +30,9 @@
                 <li><a href="{{ url('login') }} " class="wine-red-text text-lighten-1 "><i class="material-icons ">account_balance_wallet</i>缴费</a></li>
                 <li><a href="{{ url('register') }} " class="wine-red-text text-lighten-1 "><i class="material-icons ">account_box</i>报名</a></li>
             </ul>
-            <a href="{{ url('login') }} " data-target="nav-mobile " class="sidenav-trigger "><i class="material-icons ">dehaze</i></a>
+            <a href="{{ url('login') }} " data-target="nav-mobile " class="sidenav-trigger "><i class="material-icons ">dehaze</i></a> -->
         </div>
-    </nav> -->
+    </nav>
 
     <!-- <div id="index-banner " class="parallax-container ">
         <div class="section no-pad-bot ">
