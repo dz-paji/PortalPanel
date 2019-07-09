@@ -77,7 +77,7 @@
             <h3 class="mb-4 tittle-wthree">微距 2019 年暑期论坛 <span>已开始报名 </span> !</h3>
             <p class="px-lg-5">暑假有何打算？微距论坛了解一下？</p>
             <div class="buttons mt-md-4 mt-3">
-                <a href="#apply" class="btn btn-default">立刻报名</a>
+                <a href="http://microdistancezm.mikecrm.com/eGmJfCC" class="btn btn-default">立刻报名</a>
             </div>
         </div>
     </div>
