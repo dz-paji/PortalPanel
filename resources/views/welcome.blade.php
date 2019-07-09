@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="wine-red lighten-1" role="navigation">
+    <!-- <nav class="wine-red lighten-1" role="navigation">
         <div class="nav-wrapper container ">
             <a id="logo-container" href="#" class="brand-logo">MicroDistance</a>
             <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
@@ -32,7 +32,7 @@
             </ul>
             <a href="{{ url('login') }} " data-target="nav-mobile " class="sidenav-trigger "><i class="material-icons ">dehaze</i></a>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- <div id="index-banner " class="parallax-container ">
         <div class="section no-pad-bot ">
