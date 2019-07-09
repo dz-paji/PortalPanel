@@ -4,15 +4,11 @@
         <div class="col-md-10 col-md-offset-1">
             <div class="panel panel-default">
                 <div class="panel-heading ">
-                    <p class="grey-text text-darken-1">
-                        注意请在报名前翻阅公众号文章《2019微距国际青年论坛小组project大揭秘》，确保自己能满足意向project的物料要求
+                    <h5 class="grey-text text-darken-1">
+                        报名规则：
                         <br>
-                        备注：
-                        如果你没有被分配至第一志愿，请保持积极对待。每一位导师都很优秀，project也会非常精彩。
-                        <br>
-                        如果代表想对分配结果进行复议，请微信联系微距小助手。
-                        希望大家尽快，并且仔细填写。
-                    </p>
+                        代表选出自己最想参与的三个project，并根据意愿程度先后排出第一志愿、第二志愿、第三志愿。在表单下方用100字左右简要陈述第一志愿、第二志愿的选择原因。
+                    </h5>
                 </div>
                 <div class="panel-body">
 
@@ -150,6 +146,44 @@
             <br>
             <br>
             <br>
+            <div class="col-md-12">
+                <h5 class="grey-text text-darken-1">
+                    报名需知：
+                    <br>
+                    <br>
+
+                    小组project作为微距论坛的一大重要环节，你的选择将决定你与哪位导师共度3天微距之旅，与哪一学科相识相知，在何种project形式中进行探索。所以，我们希望你在进行project选择前，充分思考自己的学术兴趣、爱好，充分了解导师的传授内容与形式，以保证小组project效果最大化。
+                    <br>
+                    <br>
+
+                    注意请在报名前翻阅公众号文章《2019微距国际青年论坛小组project大揭秘》，确保自己能满足意向project的物料要求
+                    <br>
+                    <br>
+
+                    录取规则：
+                    <br>
+
+                    <br>
+
+                    我们会在代表报名结束后，统一对代表进行project分配。按照第一志愿优先，志愿顺序依次递减的原则，当某一小组报名人数超过10人时，对学员进行报名意愿充分性的考量，进行择优选取。
+                    <br>
+                    <br>
+
+                    备注：
+                    <br>
+                    <br>
+
+                    如果你没有被分配至第一志愿，请保持积极对待。每一位导师都很优秀，project也会非常精彩。
+                    <br>
+                    <br>
+
+                    如果代表想对分配结果进行复议，请微信联系微距小助手。
+                    <br>
+                    <br>
+
+                    希望大家尽快，并且仔细填写。
+                </h5>
+            </div>
 
         </div>
     </div>
@@ -164,24 +198,4 @@
     var instance = M.FormSelect.getInstance(elem);
 
 </script>
-<script>
-    (function (i, s, o, g, r, a, m) {
-        i["DaoVoiceObject"] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o), m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        a.charset = "utf-8";
-        m.parentNode.insertBefore(a, m)
-    })(window, document, "script", ('https:' == document.location.protocol ? 'https:' : 'http:') +
-        "//widget.daovoice.io/widget/fd0e0a36.js", "daovoice")
-    daovoice('init', {
-        app_id: "fd0e0a36"
-    });
-    daovoice('update');
-
-</script>
-
 @endsection

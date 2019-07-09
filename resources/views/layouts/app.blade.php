@@ -94,7 +94,7 @@
             @yield('content')
         </main>
     </div>
-    <footer class="page-footer wine-red" style="position:fixed;bottom:0;left:0;width:100%;">
+    <footer class="page-footer wine-red" >
         <div class="footer-copyright">
             <div class="container">
                 <a class="brown-text text-lighten-3" href="http://www.miitbeian.gov.cn/">冀ICP备17022988-号3</a>
