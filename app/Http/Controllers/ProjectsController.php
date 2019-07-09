@@ -32,7 +32,9 @@ class ProjectsController extends Controller
         $project->name = request('name');
         $project->project1 = request('project1'); 
         $project->project2 = request('project2');
+        $project->project3 = request('project3');
         $project->desc = request('desc');
+        $project->desc2 = request('desc2');
         $project -> save();
 
         // echo($project->project);

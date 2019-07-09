@@ -19,7 +19,9 @@ class CreateUserMigrate extends Migration
             $table->string('name');
             $table->string('project1');
             $table->string('project2');
+            $table->string('project3');
             $table->string('desc');
+            $table->string('desc2');
             $table->timestamps();
         });
     }
