@@ -28,3 +28,5 @@ Route::get('payment/alipay', 'PaymentController@alipay');//支付宝支付
 Route::get('payment/wechat', 'PaymentController@wechat');//微信支付
 Route::get('projects/decide', 'ProjectsController@create');//Project 选择器
 Route::post('projects', 'ProjectsController@store');//結果儲存器
+Route::get('projects', 'ProjectsController@error');//错误的方法
+Route::get('history', 'ArticleController@history');//历史文章

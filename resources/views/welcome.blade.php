@@ -12,15 +12,27 @@
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="/css/style.css" type="text/css" media="all" />
     <link href="https://cdn.bootcss.com/font-awesome/5.8.2/css/all.min.css" rel="stylesheet">
-    <link href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800" rel="stylesheet">
+    <link
+        href="//fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+        rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
 
 </head>
 
 <body>
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
     <nav class="wine-red lighten-1" role="navigation">
         <div class="nav-wrapper container ">
             <a id="logo-container" href="#" class="brand-logo">MicroDistance</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">更多内容<i
+                            class="material-icons right">arrow_drop_down</i></a></li>
+            </ul>
             <!-- <ul class="right hide-on-med-and-down red-wine-text text-lighten-1">
                 <li><a href="{{ url('login') }}">缴费</a></li>
                 <li><a href="{{ url('register') }}">报名</a></li>
@@ -86,7 +98,8 @@
         <div class="container">
             <div class="col s12 center">
                 <h3 class="mb-4 tittle-wthree">关于我们</h3>
-                <p>微距教育启程于 2015 年的夏天. 是华北地区⾸个完全由⾼中⽣组织策划的学术论坛. 论坛秉承"广阅以知天下; 勤思以辨是非; 能⾔以聚宾朋; 无畏以临天下" 的理念, 且提出 "广阅 勤思 能⾔无畏" 的论坛宗旨, 希望培养对当今 世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民</p>
+                <p>微距教育启程于 2015 年的夏天. 是华北地区⾸个完全由⾼中⽣组织策划的学术论坛. 论坛秉承"广阅以知天下; 勤思以辨是非; 能⾔以聚宾朋; 无畏以临天下" 的理念, 且提出 "广阅 勤思 能⾔无畏"
+                    的论坛宗旨, 希望培养对当今 世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民</p>
             </div>
         </div>
     </section>
@@ -194,7 +207,8 @@
             <div class="row">
                 <div class="col-lg-4 testimonials_grid mt-3">
                     <div class="p-lg-5 p-4 testimonials-gd-vj">
-                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span>终于找到组织，谢谢微距，课程内容实在太精彩，完全超乎想象，已经报名席位学习
+                        <p class="sub-test"><span class="fa fa-quote-left s4"
+                                aria-hidden="true"></span>终于找到组织，谢谢微距，课程内容实在太精彩，完全超乎想象，已经报名席位学习
                         </p>
                         <div class="row mt-4">
                             <div class="col-3 testi-img-res">
@@ -209,7 +223,8 @@
                 </div>
                 <div class="col-lg-4 testimonials_grid mt-3">
                     <div class="p-lg-5 p-4 testimonials-gd-vj">
-                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span>很多新奇的领域居然也有涉及，微距真的太棒了👍👍
+                        <p class="sub-test"><span class="fa fa-quote-left s4"
+                                aria-hidden="true"></span>很多新奇的领域居然也有涉及，微距真的太棒了👍👍
                         </p>
                         <div class="row mt-4">
                             <div class="col-3 testi-img-res">
@@ -224,7 +239,8 @@
                 </div>
                 <div class="col-lg-4 testimonials_grid mt-3">
                     <div class="p-lg-5 p-4 testimonials-gd-vj">
-                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span> 参加微距真的是为以后的选课打好了一定的基础，我本来没有确定好到底想要学什么，参加了一年的项目，现在已经有了方向了，今年再来！
+                        <p class="sub-test"><span class="fa fa-quote-left s4" aria-hidden="true"></span>
+                            参加微距真的是为以后的选课打好了一定的基础，我本来没有确定好到底想要学什么，参加了一年的项目，现在已经有了方向了，今年再来！
                         </p>
                         <div class="row mt-4">
                             <div class="col-3 testi-img-res">
@@ -345,13 +361,17 @@
             <div class="row ">
                 <div class="col l6 s12 ">
                     <h5 class="white-text ">关于我们</h5>
-                    <p class="grey-text text-lighten-4 ">微距教育启程于 2015 年的夏天. 是华北地区⾸个完全由⾼中⽣组织策划的学术论坛. 论坛秉承 "广阅以知天下; 勤思以辨是非; 能⾔以聚宾朋; 无畏以临天下" 的理念, 且提出 "广阅 勤思 能⾔无畏" 的论坛宗旨, 希望培养对当今 世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民
+                    <p class="grey-text text-lighten-4 ">微距教育启程于 2015 年的夏天. 是华北地区⾸个完全由⾼中⽣组织策划的学术论坛. 论坛秉承 "广阅以知天下;
+                        勤思以辨是非; 能⾔以聚宾朋; 无畏以临天下" 的理念, 且提出 "广阅 勤思 能⾔无畏" 的论坛宗旨, 希望培养对当今
+                        世界现状有持续关注、对事件现象独⽴思考并且有勇⽓与能⼒将⾃⼰的独到见解阐述出来的新青年、⼤国民
                     </p>
                 </div>
                 <div class="col l3 s12 ">
                     <h5 class="white-text ">更多链接</h5>
                     <ul>
-                        <li><a class="waves-effect waves-light white-text " href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwMDYyNTEyNg==#wechat_redirect" target="_Blank">微信公众号</a></li>
+                        <li><a class="waves-effect waves-light white-text "
+                                href="https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwMDYyNTEyNg==#wechat_redirect"
+                                target="_Blank">微信公众号</a></li>
                     </ul>
                 </div>
             </div>
@@ -359,7 +379,8 @@
                 <div class="container ">
                     <a class="brown-text text-lighten-3 " href="http://www.miitbeian.gov.cn/ ">冀ICP备17022988-号3</a>
                     <p> </p>
-                    <p>©2019 MicroDistance. Powered by <a class="brown-text text-lighten-3 " href="https://github.com/dz-paji/PortalPanel" target="_Blank">PortalPanel</a> </p>
+                    <p>©2019 MicroDistance. Powered by <a class="brown-text text-lighten-3 "
+                            href="https://github.com/dz-paji/PortalPanel" target="_Blank">PortalPanel</a> </p>
                 </div>
             </div>
     </footer>
@@ -371,9 +392,12 @@
 
 </body>
 <script>
-    $(document).ready(function() {
+    $(document).ready(function () {
         $('.slider').slider();
     });
+
+    $(".dropdown-trigger").dropdown();
+
 </script>
 
 </html>
